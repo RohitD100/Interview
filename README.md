@@ -1,40 +1,40 @@
 # Interview
 
-undefined - 
+undefined -
 A variable that has not been assigned a value
 
-function - 
- A function in JavaScript is similar to a procedure—a set of statements that performs a task or calculates a value, but for a procedure to qualify as a function, it should take some input and return an output where there is some obvious relationship between the input and the output.
+function -
+A function in JavaScript is similar to a procedure—a set of statements that performs a task or calculates a value, but for a procedure to qualify as a function, it should take some input and return an output where there is some obvious relationship between the input and the output.
 
-array - 
+array -
 a data structure that stores a collection of related data items in contiguous memory locations.
 
-object  -
+object -
 An object is a collection of properties
 
-hoisting - 
+hoisting -
 the built-in behavior of the language through which declarations of functions, variables, and classes are moved to the top of their scope – all before code execution
 
-scoping - 
+scoping -
 the current context of code, which determines the accessibility of variables to JavaScript
 
-promises - 
+promises -
 A Promise is an object representing the eventual completion or failure of an asynchronous operation
 
-let, var, const 
+let, var, const
 Use const for variables that you don't intend to change.
 Use let for variables that you need to re-assign.
-Avoid using var in modern JavaScript development, as let and const offer better scoping and prevent unexpected behavior. 
+Avoid using var in modern JavaScript development, as let and const offer better scoping and prevent unexpected behavior.
 
-prototypes 
-A prototype is an existing inbuilt functionality in JavaScript. 
+prototypes
+A prototype is an existing inbuilt functionality in JavaScript.
 
 Classes
 Classes are a template for creating objects
 
-#event loop
+# event loop
 
-this keyword - 
+this keyword -
 refers to the object that is currently executing or calling the function
 
 Closures
@@ -46,7 +46,7 @@ Debouncing is a technique that prevents unnecessary function executions by contr
 Throttling
 the process of limiting the number of API requests a user can make in a certain period.
 
-#Git
+# Git
 
 HTTP Response Codes
 HTTP response status codes indicate whether a specific HTTP request has been successfully completed. Responses are grouped in five classes:
@@ -68,10 +68,13 @@ HTTP Headers
 HTTP headers let the client and the server pass additional information with an HTTP request or response. An HTTP header consists of its case-insensitive name followed by a colon (:), then by its value. Whitespace before the value is ignored.
 HTTP Request Methods
 HTTP defines a set of request methods to indicate the desired action to be performed for a given resource. Although they can also be nouns, these request methods are sometimes referred to as HTTP verbs. Each of them implements a different semantic, but some common features are shared by a group of them: e.g. a request method can be safe, idempotent, or cacheable.
+
 GET - The GET method requests a representation of the specified resource. Requests using GET should only retrieve data.
+
 POST - The POST method is used to submit an entity to the specified resource, often causing a change in state or side effects on the server.
+
 PUT - The PUT method replaces all current representations of the target resource with the request payload.
+
 DELETE The DELETE method deletes the specified resource.
 
-#Databases
-
+# Databases
